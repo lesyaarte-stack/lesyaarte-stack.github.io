@@ -1,0 +1,68 @@
+/* 1. Общие настройки для всей страницы */
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff0f5; /* Нежно-розовый пастельный фон (LavenderBlush) */
+  color: #4a3740; /* Красивый темно-сливовый цвет текста */
+  
+  max-width: 700px; /* Ограничиваем ширину страницы */
+  margin: 40px auto; /* Центрируем сайт на экране */
+  padding: 0 20px;
+}
+
+/* 2. Оформление шапки (Имя и Профессия) */
+h1 {
+  text-align: center;
+  color: #d147a3; /* Яркий, но приятный розовый цвет для имени */
+  font-size: 36px;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05); /* Легкий объем для букв */
+}
+
+main > h2 {
+  text-align: center;
+  color: #8c7380; /* Приглушенный сливово-серый цвет для подзаголовка */
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+/* 3. Стили для карточек (Образование, Навыки, О себе) */
+section {
+  background: #ffffff; /* Чистый белый фон для контраста карточек */
+  padding: 24px 30px;
+  margin-bottom: 25px;
+  border-radius: 12px; /* Чуть больше скруглили уголки, чтобы выглядело мягче */
+  box-shadow: 0 4px 10px rgba(209, 71, 163, 0.1); /* Нежная розовая тень вокруг карточек */
+  border: 1px solid #ffe3f2; /* Тонкая розовая рамочка */
+}
+
+/* 4. Заголовки внутри карточек */
+section h2 {
+  color: #ff66b2; /* Сочный розовый цвет для заголовков блоков */
+  font-size: 20px;
+  margin-top: 0;
+  border-bottom: 2px dashed #ffd1eb; /* Пунктирная розовая линия под заголовком */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+/* 5. Настройки списков */
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* 6. Текст в дополнительной информации */
+p {
+  margin: 0;
+}
